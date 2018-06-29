@@ -1,0 +1,60 @@
+﻿@page
+@model IndexModel
+@{
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <h2> my songs</h2>
+
+    <div>
+        <a asp-page="create">add new song</a>
+    </div>
+
+    <div>
+        @if (Model.myConnections.Count() > 0)
+        {
+            <form method="post">
+                <div>
+                    <table>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(m => m.myConnections.FirstOrDefault().SongName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(m => m.myConnections.FirstOrDefault().Artist)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(m => m.myConnections.FirstOrDefault().Rating)
+                            </th>
+                            <th>
+
+                            </th>
+                        </tr>
+                        @foreach (var item in Model.myConnections)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(m => item.SongName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.Artist)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.Rating)
+                                </td>
+                                <td>
+                                    <a asp-page="Edit" asp-route-id="@item.ID">edit</a>
+                                    <button class="w3-button w3-white w3-border w3-border-blue w3-round-large"asp-page-handler="delete" asp-route-id="@item.ID">&times;</button>
+                                </td>
+                            </tr>
+
+                        }
+                    </table>
+                </div>
+            </form>
+
+        }
+        else
+        {
+            <p>add some songs fam XD</p>
+        }
+    </div>
+}

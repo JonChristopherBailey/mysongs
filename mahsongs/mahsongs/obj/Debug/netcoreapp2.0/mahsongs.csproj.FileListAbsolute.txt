@@ -1,0 +1,11 @@
+C:\Users\Miguel Longoria\source\repos\mahsongs\mahsongs\bin\Debug\netcoreapp2.0\mahsongs.deps.json
+C:\Users\Miguel Longoria\source\repos\mahsongs\mahsongs\bin\Debug\netcoreapp2.0\mahsongs.runtimeconfig.json
+C:\Users\Miguel Longoria\source\repos\mahsongs\mahsongs\bin\Debug\netcoreapp2.0\mahsongs.runtimeconfig.dev.json
+C:\Users\Miguel Longoria\source\repos\mahsongs\mahsongs\bin\Debug\netcoreapp2.0\mahsongs.dll
+C:\Users\Miguel Longoria\source\repos\mahsongs\mahsongs\bin\Debug\netcoreapp2.0\mahsongs.pdb
+C:\Users\Miguel Longoria\source\repos\mahsongs\mahsongs\obj\Debug\netcoreapp2.0\mahsongs.csprojAssemblyReference.cache
+C:\Users\Miguel Longoria\source\repos\mahsongs\mahsongs\obj\Debug\netcoreapp2.0\mahsongs.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Longoria\source\repos\mahsongs\mahsongs\obj\Debug\netcoreapp2.0\mahsongs.AssemblyInfoInputs.cache
+C:\Users\Miguel Longoria\source\repos\mahsongs\mahsongs\obj\Debug\netcoreapp2.0\mahsongs.AssemblyInfo.cs
+C:\Users\Miguel Longoria\source\repos\mahsongs\mahsongs\obj\Debug\netcoreapp2.0\mahsongs.dll
+C:\Users\Miguel Longoria\source\repos\mahsongs\mahsongs\obj\Debug\netcoreapp2.0\mahsongs.pdb

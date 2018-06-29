@@ -1,0 +1,21 @@
+﻿@page
+@model createModel
+@{
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <div>
+        <h2>Add songs</h2>
+    </div>
+    <div>
+        <form method="post">
+            <input asp-for=" Connection.SongName" type="text" placeholder="song" />
+            <span asp-validation-for="Connection.SongName"></span>
+            <input asp-for=" Connection.Artist" type="text" placeholder="artist" />
+            <span asp-validation-for="Connection.Artist"></span>
+            <input asp-for=" Connection.Rating" type="text" placeholder="Rating" />
+            <span asp-validation-for="Connection.Rating"></span>
+            <input class="w3-button w3-white w3-border w3-border-blue w3-round-large" type="submit" value="use the song" />
+            <a asp-page="Index">Back to song List</a>
+
+        </form>
+    </div>
+}
